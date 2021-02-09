@@ -1,13 +1,51 @@
-@import "~bootstrap/scss/bootstrap.scss";
-
-/* 
-
-    You can write your own styles here...
+body {background-image: url(https://i0.wp.com/mundowin.com/wp-content/uploads/2019/06/road-design-software.jpg?w=832&ssl=1);
+    background-repeat: no-repeat;
+    background-size: 1200px 1300px;
+    background-position: center;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
 
-*/
+
+
+#trafficTop{
+    background-color: black;
+    width: 10px;
+    height: 70px;
+    margin-left: 82px;
+    position: fixed;
+    top: 80px; left: 650px;
+    
+}
+
+#container{
+    background-color: black;
+    width: 56px;
+    height: 185px;
+    margin-left: 50px;
+    padding: 7px;
+    border-radius: 10px;
+    position: fixed;
+    top: 130px;
+    left: 650px;
+}
+
+.lights{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border-radius: 50px;
+    padding: 4px;
+    cursor: pointer;
+    &.red{background-color: #990000;position: relative; top: 125px;left: -66px;}
+    &.yellow{background-color: #cc6600;position: relative;top: 132px;
+    left: -66px ;}
+    &.green{background-color: #009933; position: relative;
+    top:140px; left: -66px;  }
+    &.selected{box-shadow: #f8ffcc 0px 0px 50px 20px;}
+    
+}
+
+
+
+
+
